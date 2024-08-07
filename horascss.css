@@ -3,12 +3,13 @@ body{
     font: normal 15pt Arial;
 }
 header{
-     color: white;
+     color: rgb(11, 15, 235);
      text-align: center;
    
     
 }
-section{
+
+/*section{
    background: white;
    border-radius: 10px;
    padding: 15px;
@@ -17,7 +18,8 @@ section{
    box-shadow: 5px 5px 10px black;
    
     
-}
+}*/
+
 footer{
     color: rgb(120, 227, 5);
     text-align: center;
@@ -33,7 +35,8 @@ footer{
     
 }
 div#msg{
-    color: blue;
+    background-color: blue;
+    color: rgb(231, 129, 56);
     text-align:  center;
     padding: 8px;
     font: normal 15pt Arial;
@@ -53,7 +56,7 @@ h1{
     text-align: center;
     font-style:  italic;
     font: normal 18pt Arial;
-    background: orange;
+    background: rgb(0, 255, 149);
     border-radius: 10px;
     padding: 1px;
     margin: auto;
@@ -63,7 +66,7 @@ h1{
 h2{
     text-align: right;
     font: normal 15pt Arial;
-    background: rgb(211, 206, 196);
+    background: rgb(246, 244, 241);
     border-radius: 10px;
     padding: px;
     margin: 7px 200px 1px;
@@ -81,4 +84,12 @@ div#mensag{
     width: 250px;
     box-shadow: 5px 5px 10px black;
 
+}
+h3{
+    position: absolute;
+    top: 65px;
+    left: 240px;
+    right: 20px;
+    font-size: 20px;
+    color: black;
 }

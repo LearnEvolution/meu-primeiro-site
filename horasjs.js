@@ -21,7 +21,7 @@ function iniciar(){
 
    }else if(hora >= 0 && hora <= 5){
       img.src = 'madrugada.png'
-     document.body.style.background = '#000'
+     document.body.style.background = '#0005'
      msg.innerHTML = `Agora são ${hora}h ${min}m`
      top.innerHTML = 'Boa Madrugada!'
 
